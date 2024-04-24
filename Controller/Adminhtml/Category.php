@@ -28,6 +28,11 @@ abstract class Category extends \Magento\Backend\App\Action
      * @var \Magento\Backend\Model\View\Result\ForwardFactory
      */
     protected $_resultForwardFactory;
+	
+    /**
+     * @var \Magento\Backend\Model\View\Result\RedirectFactory
+     */
+    protected $_resultRedirectFactory;
 
     /**
      * @var \Magento\Framework\View\Result\LayoutFactory
